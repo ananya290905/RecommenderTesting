@@ -1,0 +1,47 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (but this can be found in the link in the README.md)
+data/*.csv
+data/*.dat
+data/raw/
+data/*.zip
+
+!data/.gitkeep
+
+# Results
+results/tmp/
+*.png.bak
+
+# Model artifacts 
+*.pkl
+*.joblib
+*.h5
+models/*.bin
+
+# Environment
+.env
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# # Streamlit
+# .streamlit/secrets.toml
