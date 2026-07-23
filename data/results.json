@@ -1,0 +1,19 @@
+{
+    "results_a" : {
+        "variant" : "A",
+        "algorithm" : "SVD",
+        "rmse" : 0.9413,
+        "mae" : 0.9413,
+        "auc" : 0.6353,
+        "simulated_ctr" : 0.7774
+    },
+
+    "results_b" : {
+        "variant" : "B",
+        "algorithm" : "LightGBM",
+        "rmse" : -1,
+        "mae" : -1,
+        "auc" : 0.7921,
+        "simulated_ctr" : 0.2120
+    }
+}
