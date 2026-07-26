@@ -1,0 +1,23 @@
+{
+    "classic_ab" : {
+        "sample_size_per_variant" : 6116,
+        "a_vs_b" : {
+            "z" : 50.991,
+            "p" : 0.0,
+            "sig" : "True"
+        },
+
+        "a_vs_c" : {
+            "z" : 50.260,
+            "p" : 0.0,
+            "sig" : "True"
+        },
+
+        "b_vs_c" : {
+            "z" : 0.840,
+            "p" : 0.401,
+            "sig" : "False"
+        }
+    }
+
+}

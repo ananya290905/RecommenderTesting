@@ -2,17 +2,13 @@
     "results_a" : {
         "variant" : "A",
         "algorithm" : "SVD",
-        "rmse" : 0.9461,
-        "mae" : 0.7442,
-        "auc" : 0.7710,
-        "simulated_ctr" : 0.6350
+        "auc" : 0.7796,
+        "simulated_ctr" : 0.6357
     },
 
     "results_b" : {
         "variant" : "B",
         "algorithm" : "LightGBM",
-        "rmse" : -1,
-        "mae" : -1,
         "auc" : 0.7921,
         "simulated_ctr" : 0.2120
     },
@@ -20,9 +16,7 @@
     "results_c" : {
         "variant" : "C",
         "algorithm" : "LightFM",
-        "rmse" : -1,
-        "mae" : -1,
-        "auc" : 0.6256,
-        "simulated_ctr" : 0.9983
+        "auc" : 0.7633,
+        "simulated_ctr" : 0.2167
     }
 }   
