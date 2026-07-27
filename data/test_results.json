@@ -18,6 +18,12 @@
             "p" : 0.401,
             "sig" : "False"
         }
+    },
+    
+    "bayesian_results": {
+        "rounds_at_50k_visits" : "oscillating, no clear winner",
+        "rounds_at_120k_visits" : "plateaued, [B or C] confidently favored",
+        "approx_visits_to_stabilize" : "900,000 per variant",
+        "final_p_best" : {"B" : 0.0116 ,"C" : 0.9884}
     }
-
 }
