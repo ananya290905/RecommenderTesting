@@ -108,7 +108,7 @@ At this sample size, classic A/B testing correctly identifies A's advantage but 
 ![Showing Posterior Belief Evolution Over Time](data/plots/output.png)
 ![Showing Bayesian P(Best) Over Time](data/plots/output1.png)
 
-### Multi-armed bandits (B vs. C, 6,000 rounds)
+### Multi-armed bandits (A vs. B vs. C, 6,000 rounds)
 
 | Algorithm                    | Final cumulative regret  |
 | ---------------------------- | ------------------------ |
@@ -117,7 +117,7 @@ At this sample size, classic A/B testing correctly identifies A's advantage but 
 | UCB1                         | ~12                      |
 | Thompson Sampling            | ~9.8                     |
 
-Even though none of the adaptive bandit algorithms fully "resolved" B vs. C within 6,000 rounds (traffic allocation kept hedging close to 50/50 for UCB1 specifically), all three adaptive methods accumulated dramatically less regret than fixed-schedule exploration, because the cost of occasionally picking the "wrong" variant between two very close options is small.
+Above we see that when comparing all three variants with variant A clearly dominating, the results about regrets change when only comparing B vs. C. Even though none of the adaptive bandit algorithms fully "resolved" B vs. C within 6,000 rounds (traffic allocation kept hedging close to 50/50 for UCB1 specifically), all three adaptive methods accumulated dramatically less regret than fixed-schedule exploration, because the cost of occasionally picking the "wrong" variant between two very close options is small.
 
 ![Combinated Cumulative Regret Plot](data/plots/output2.png)
 
